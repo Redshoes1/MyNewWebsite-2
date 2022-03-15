@@ -9,13 +9,13 @@ function HomePage() {
         alignItems: 'center'
       }}
     >
-      <h1 style={{ fontFamily: 'fantasy', color: '#51827b' }}>
+      <h1 style={{ fontFamily: '"Times New Roman", Times, serif', color: '#9d32ad' }}>
         {"Redshoes's website"}
       </h1>
       <h2
         style={{
           fontFamily: 'cursive',
-          color: '#e337e6',
+          color: '#32ad88',
           marginBottom: '10rem'
         }}
       >
@@ -26,8 +26,8 @@ function HomePage() {
           fontFamily: 'monospace',
           padding: '1rem',
           fontSize: '2rem',
-          background: '#5a37e6',
-          color: 'white'
+          background: '#a9ad32',
+          color: '#ad9132'
         }}
         onClick={() => alert('Hello there')}
       >
@@ -38,8 +38,8 @@ function HomePage() {
           fontFamily: 'monospace',
           padding: '1rem',
           fontSize: '2rem',
-          background: 'orange',
-          color: '#e3e637',
+          background: '#a90cf2',
+          color: '#ad3255',
           marginTop: '2rem'
         }}
         onClick={() => {
